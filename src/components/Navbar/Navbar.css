@@ -44,4 +44,91 @@
   display: none;
 }
 
+/* After button click */
 
+.navbar1 {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  transition: 1s ease;
+}
+.first-list1 {
+  display: flex;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #36454f;
+  padding-top: 1rem;
+}
+
+.left-list1 {
+  position: absolute;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  top: 1.5rem;
+}
+.nav-right1{
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  top: 230px;
+  left: 45px;
+  background-color: transparent;
+  
+  
+}
+.right-list-2{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+
+}
+.second-list-2 {
+  display: flex;
+  background-color: transparent;
+  margin-top: 1rem;
+  cursor: pointer;
+  color: black;
+}
+
+
+
+
+
+
+@media (max-width: 790px) {
+  .left-list {
+    display: none;
+  }
+  .discover,
+  .support,
+  .profile-icon
+   {
+    display: none;
+  }
+  .nav-right{
+    justify-content: flex-start;
+  }
+  .search-icon,
+  .cart-icon {
+    position:relative;
+    color: black;
+    right: 40px;
+  }
+  .menubar {
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+  }
+}
+
+@media (max-width: 950px) {
+  .first-list,
+  .second-list {
+    font-size: 0.9rem;
+    padding-left: 1rem;
+  }
+}
