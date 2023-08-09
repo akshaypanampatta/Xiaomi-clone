@@ -1,6 +1,5 @@
 .cont {
   display: flex;
-  
   flex-wrap: wrap;
  
 }
@@ -11,6 +10,7 @@
 .bottom-images{
   display: flex;
   margin-top: 10px;
+  
   
 }
 .picture1,
@@ -29,7 +29,7 @@
 
 .picture3,
 .picture4 {
-  width: 650px;
+  width: 750px;
   height: 600px; 
 }
 .firstset,

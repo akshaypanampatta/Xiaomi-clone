@@ -14,7 +14,7 @@ const About = () => {
          setCurrentImage(
            (prevIndex) => (prevIndex + 1) % imageUrls.length
          );
-       }, 2000); 
+       }, 1000); 
        return () => clearInterval(interval);
      }, []);
   return (
