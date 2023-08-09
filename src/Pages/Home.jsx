@@ -4,6 +4,7 @@ import Header from '../components/Header/Header'
 import Container from '../components/Container/Container'
 import About from '../components/About/About'
 import Service from '../components/Service/Service'
+import Footer from '../components/Footer/Footer'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Container/>
         <About/>
         <Service/>
+        <Footer/>
     </div>
   )
 }
