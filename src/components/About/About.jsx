@@ -23,7 +23,12 @@ const About = () => {
         <div className='slider'>
             <img className='slideimage' src={imageUrls[currentImage]} alt="" />
         </div>
-        <div>
+        <div className='add'>
+            <h3 className='design'>#SuperNote #SuperDesign</h3>
+            <h1>Redmi Note 12</h1>
+            <h3>The Sunrise Gold colour of #RedmeNote12 is definitely <br /> getting some attention</h3>
+            <h2>Buy Now</h2>
+            
 
         </div>
 
