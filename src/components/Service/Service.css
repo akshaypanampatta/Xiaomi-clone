@@ -6,7 +6,7 @@
     margin-top: 30px;
 }
 .care{
-    width:35rem;
+    width:31rem;
     background-color: white;
     text-align: center;
     height: 16rem;
@@ -58,9 +58,27 @@
   .care {
     flex-direction: column; 
     align-items: center; 
-    width: 1005;
+   
   }
   .centres{
+    max-width: 100%; 
+    margin-right: 0; 
+    margin-top: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .care {
+    flex-direction: column; 
+    align-items: center; 
+    width: 1005;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 3rem;
+  }
+  .centres{
+    margin-top: 2rem;
     max-width: 100%; 
     margin-right: 0; 
     margin-top: 0;

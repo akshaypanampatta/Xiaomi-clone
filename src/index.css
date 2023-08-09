@@ -4,3 +4,6 @@ body {
   padding: 0;
  background-color: #e8e3df;
 }
+html, body {
+  height: 100%;
+}

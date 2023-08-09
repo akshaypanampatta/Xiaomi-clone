@@ -21,10 +21,13 @@
 }
 .picture3,
 .picture4 {
-  width: 100%; 
+  
   height: auto; 
   margin: 10px;
-  max-width: 100%;
+  max-width: 97%;
+}
+.picture3{
+  width: 730px;
 }
 
 .picture3,
