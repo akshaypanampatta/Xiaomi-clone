@@ -4,10 +4,13 @@
     height: auto;
     display: block;
     cursor: pointer;
+    object-fit: cover;
 }
+
 .image2{
     margin-top: 1rem;
 }
+
 .overlay1,
 .overlay2{
   position: absolute;
@@ -43,7 +46,9 @@
 }
 .overlay1,
 .overlay2{
+    width: 20rem;
     align-items: center;
+    margin-left: 4rem;
     line-height: 2px;
     display: flex;
     flex-direction: column;

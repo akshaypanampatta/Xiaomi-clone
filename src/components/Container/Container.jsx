@@ -14,7 +14,7 @@ const Container = () => {
           <div className="firstset">
             <img className="picture1" src={picture1} alt="" />
             <div className="text1">
-              <h2>Smart Choices for Stronger India</h2>
+              <h2 className="sale">Smart Choices for Stronger India</h2>
               <h4>Sale is Live</h4>
               <h5>Shop Now</h5>
             </div>

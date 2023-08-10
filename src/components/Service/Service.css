@@ -15,6 +15,12 @@
 .logos{
     display: flex;
     justify-content: center;
+   
+}
+.mi1,
+.mi2,
+.mi3{
+  object-fit: cover;
 }
 .centres{
  width: 35rem;
